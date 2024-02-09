@@ -20,7 +20,7 @@ def javob_ber(text_file, savol):
                 result = wikipedia.summary(savol)
                 return(result)
             except:
-                return("Bu so'rov uchun javob topilmadi!")
+                return("Men SGS tomonidam yaratilgan AI man,Hozirgi bilimim bu savolga javob berish uchun yetmaydi.Lekin albatta men takomillashaman va barcha savollaringizga javob berolaman👍!")
 
 def index(request):
     if request.method == 'POST':
